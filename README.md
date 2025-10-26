@@ -1,6 +1,8 @@
 # WaveMeshTool-MayaPlugin
 
 ## 概要
+<img src="Docs/Images/wavetool_top.png"  width="500">
+
 **WaveMeshTool** は、Maya上で波形状のポリゴンメッシュを生成するためのプラグインです。  
 矩形波・のこぎり波・台形波など、様々な波形パターンを簡単に作成でき、**リアルタイムプレビュー**を見ながらパラメータを調整できます。
 
@@ -9,7 +11,7 @@
 ## 導入方法
 
 ### 1. ダウンロード
-GitHubリポジトリから最新版をダウンロードしてください。
+GitHubリポジトリから最新版のzipファイルをダウンロードしてください。
 
 ### 2. ファイルの配置
 ダウンロードしたファイルを以下のパスに配置します：
@@ -62,6 +64,7 @@ C:\Users\<ユーザー名>\Documents\maya\2026\
 Mayaを起動（既に起動している場合は再起動）すると、プラグインが自動的に読み込まれます。
 
 ### 4. シェルフボタンの確認
+![](Docs/Images/wavetool_mayashelf.png)
 Maya起動後、「WaveTool」という名前のカスタムシェルフが自動的に作成されます。  
 シェルフ上に「**WaveTool**」ボタンが表示されていれば、インストール成功です。
 
@@ -70,9 +73,12 @@ Maya起動後、「WaveTool」という名前のカスタムシェルフが自�
 ## 使い方
 
 ### 1. ツールを開く
+![](Docs/Images/wavetool_mayashelf.png)
 シェルフの「**WaveTool**」ボタンをクリックしてください。
 
 ### 2. 波形タイプを選択
+<img src="Docs/Images/wavetool_tab.png" width="320">
+
 ツール上部のタブから作成したい波形を選びます：
 
 - **矩形**：矩形波（長方形を繰り返すパターン）  
@@ -91,17 +97,23 @@ Maya起動後、「WaveTool」という名前のカスタムシェルフが自�
 | 奥行き | メッシュのZ方向の長さ（0.1～100.0） |
 
 #### 矩形波パラメータ
+<img src="Docs/Images/wavetool_rectwave.png" width="500">
+
 - 上の幅  
 - 下の幅  
 - 高さ  
 - 末端を閉じる
 
 #### のこぎり波パラメータ
+<img src="Docs/Images/wavetool_sawwave.png" width="500">
+
 - 左斜辺  
 - 右斜辺  
 - 高さ  
 
 #### 台形波パラメータ
+<img src="Docs/Images/wavetool_trapezoidwave.png" width="500">
+
 - 幅（1ユニットあたりの幅）  
 - 高さ  
 - 1ユニット分割数  
